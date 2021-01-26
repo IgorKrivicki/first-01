@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #e3f2fd;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/*font-family: 'Noto Serif', serif;
+font-family: 'PT Sans', sans-serif;*/
+
+                        /*Стили для основной карточки*/
+
+.card{
+    position: absolute;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    width: 967px;
+     
+    padding-top: 58px;
+    padding-left: 70px;
+    padding-right: 72px;
+    padding-bottom: 40px;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 55px 0px rgba(181, 220, 248, 1);
+}
+                        /*Стили для блока с картинкой*/
+.card-img-wrapper{
+    float: left;
+    width: 371px;
+    height: 544px;
+}
+
+                        /*Стили для блока с контентом*/
+.card-content-wrapper{
+    float: right;
+    width: 426px;
+    padding-top: 11px;
+}
+                        /*Стили для лэйбы*/
+.card-label-book{
+    margin-bottom: 16px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #bfc5c8;
+}
+                            /*Стили для названия содержимого книги*/
+.card-title{
+    margin-bottom: 25px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.15;
+    letter-spacing: 0.5px;
+    color: #01a4bd;
+} 
+                            /*Стили для текста карточки*/
+.card-text{
+    margin-bottom: 17px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #6c757f;
+}
+
+.card-text p{
+    margin-bottom: 16px;
+    
+    line-height: 1.2;
+}
+
+p{
+    margin: 0;
+}
+                            /*Стили для лэйбы цены*/
+.card-label-price{
+    margin-bottom: 8px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #bfc5c8;
+}
+                        /*Стили для цены карточки*/
+.card-price{
+    margin-bottom: 22px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    color: #000;
+}
+                        /*Стили для кнопки*/
+.button{
+    display: inline-block;
+    height: 54px;
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(226, 1, 59);        
+}
